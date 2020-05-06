@@ -9,8 +9,9 @@ def line(line)
       count +=1
       "#{count}. #{person}"
     end
-    binding.pry
+    
     puts "The line is currently #{line.each{|person| person}}"
+    binding.pry
   end
 end
 
