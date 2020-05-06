@@ -11,7 +11,6 @@ def line(line)
     end
     
     puts "The line is currently #{line.each{|person| person}}"
-    binding.pry
   end
 end
 
