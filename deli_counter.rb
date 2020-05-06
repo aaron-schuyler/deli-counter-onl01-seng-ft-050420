@@ -1,23 +1,23 @@
 require "pry"
 
-def line(line)
-  if line.length() == 0
+def line(people)
+  if people.length() == 0
     puts "The line is currently empty."
   else
     count = 0
-    line.collect do |person|
+    people.collect do |person|
       count +=1
       "#{count}. #{person}"
     end
     binding.pry
-    puts "The line is currently #{line.each{|person| person}}"
+    puts "The line is currently #{people.each{|person| person}}"
   end
 end
 
-def take_a_number(line, name)
+def take_a_number(people, name)
   
 end
 
-def now_serving(line)
+def now_serving(people)
   
 end
