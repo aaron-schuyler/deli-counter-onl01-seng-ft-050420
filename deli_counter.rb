@@ -10,7 +10,7 @@ def line(line)
       "#{count}. #{person}"
     end
     
-    puts "The line is currently #{line.each{|person| person}}"
+    puts "The line is currently #{line.each{|person| puts person}}"
   end
 end
 
